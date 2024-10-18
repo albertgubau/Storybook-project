@@ -1,9 +1,9 @@
 import { PropsWithChildren } from "react";
 import { CSSProperties } from "react";
 
-type Props = PropsWithChildren & {
+type Props = PropsWithChildren<{
   orientation: "horizontal" | "vertical";
-};
+}>;
 
 export default function Stack({ children, orientation }: Props) {
   const orientationStyles: Record<Props["orientation"], CSSProperties> = {
