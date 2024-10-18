@@ -20,7 +20,7 @@ export default function Button({
   };
 
   const variantStyles: Record<Props["variant"], CSSProperties> = {
-    primary: { backgroundColor: "blue" },
+    primary: { backgroundColor: "coral" },
     secondary: { backgroundColor: "gray" },
   };
 
